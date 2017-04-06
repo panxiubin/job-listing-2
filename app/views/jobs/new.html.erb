@@ -1,0 +1,9 @@
+<h1>增加新工作</h1>
+
+<%= simple_form_for @job do |f| %>
+
+<%= f.input :title %>
+<%= f.input :description %>
+
+<%= f.submit "提交" %>
+<% end %>
