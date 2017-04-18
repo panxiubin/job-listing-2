@@ -20,7 +20,7 @@
  @import "font-awesome";
 
 .jumbotron {
-  background-image: url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
+  background-image: url('http://ww1.sinaimg.cn/large/006tNbRwly1feqrhq8uuwj30m70etk2q.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
@@ -162,4 +162,43 @@
   letter-spacing: 3px;
   border-radius: 3px;
   width: 200px;
+}
+
+//---------Content---------
+
+.content-section-a {
+   padding: 50px 0;
+   background-color: #f8f8f8;
+}
+
+.content-section-b {
+   padding: 50px 0;
+   border-top: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading-spacer {
+   float: left;
+   width: 200px;
+   border-top: 3px solid #e7e7e7;
+}
+
+.section-heading {
+   margin-bottom: 30px;
+}
+
+.lead {
+   font-size: 18px;
+   font-weight: 400;
+}
+
+//---------Footer---------
+
+footer {
+  color: white;
+}
+
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
 }
