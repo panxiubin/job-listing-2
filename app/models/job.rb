@@ -17,4 +17,8 @@ class Job < ApplicationRecord
   scope :recent, -> { order('created_at DESC') }
 
   has_many :resumes
+
+  has_many :job_relationships
+  has_many :members, through: :job_relationships, source: :user
+
 end
